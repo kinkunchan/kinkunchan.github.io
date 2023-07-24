@@ -1,1 +1,0 @@
-# kinkunchan.github.io
