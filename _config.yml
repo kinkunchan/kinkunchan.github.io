@@ -8,11 +8,9 @@ url: "https://mark-jin.com"
 
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-include-cache
 
 # Exclude files
 exclude:
