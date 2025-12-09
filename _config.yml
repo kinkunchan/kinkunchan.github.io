@@ -1,0 +1,54 @@
+# Site configuration
+title: Mark Jin
+description: Personal Website of Mark Jin
+author: Mark Jin
+email: kinkunchan@outlook.com
+baseurl: ""
+url: "https://mark-jin.com"
+
+# Build settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Exclude files
+exclude:
+  - .jekyll-cache/
+  - .bundle/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+# Author info
+author:
+  name: Mark Jin
+  bio: "AI/ML @ PayPal"
+  location: "CA, USA"
+  email: kinkunchan@outlook.com
+  links:
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: "https://github.com/kinkunchan"
+    - label: LinkedIn
+      icon: fab fa-fw fa-linkedin
+      url: "https://linkedin.com/in/markjin"
+    - label: Twitter
+      icon: fab fa-fw fa-twitter
+      url: "https://twitter.com/kinkunchan"
+
+# Collections
+collections_dir: pages
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      author: Mark Jin

@@ -1,0 +1,15 @@
+<aside class="sidebar">
+  <div class="glass-container author-bio">
+    <div class="author-name">{{ site.author.name }}</div>
+    <div class="author-tagline">{{ site.author.bio }}</div>
+    <div class="author-location">📍 {{ site.author.location }}</div>
+    
+    <div class="social-links">
+      {% for link in site.author.links %}
+        <a href="{{ link.url }}" class="social-link" title="{{ link.label }}">
+          <i class="{{ link.icon }}"></i>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</aside>

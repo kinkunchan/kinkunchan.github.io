@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="{{ '/assets/css/glassmorphism.css' | relative_url }}">
+</head>
+<body>
+  {% if page.url == "/" %}
+    <!-- Hero layout for home page -->
+    {{ content }}
+  {% else %}
+    <!-- Standard layout for other pages -->
+    {% include header.html %}
+    
+    <div class="site-content">
+      {% include sidebar.html %}
+      <main class="page-content">
+        {{ content }}
+      </main>
+    </div>
+    
+    {% include footer.html %}
+  {% endif %}
+</body>
+</html>
