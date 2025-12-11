@@ -7,7 +7,7 @@ permalink: /
 <div class="hero-section hero-minimal">
   <div class="hero-content">
     <h1 class="hero-name">Mark Jin</h1>
-    <p class="hero-title">ML Solutions Engineer at Woven by Toyota</p>
+    <p class="hero-title">ML Engineer at Woven by Toyota</p>
     <div class="hero-social">
       <a href="https://linkedin.com/in/markjin" class="hero-social-link" title="LinkedIn">
         <i class="fab fa-linkedin"></i>
