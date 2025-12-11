@@ -59,7 +59,7 @@ permalink: /
     <article class="news-card">
       <div class="news-meta">
         <span class="news-location"><i class="fa-solid fa-location-dot"></i> Evanston, US</span>
-        <span class="news-date">Dec 2021</span>
+        <span class="news-date">Sep 2021</span>
       </div>
       <h3>Northwestern University</h3>
       <p>Start Master of Science in Analytics Program at Northwestern University.</p>
