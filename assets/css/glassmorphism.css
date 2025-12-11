@@ -424,7 +424,7 @@ html, body {
 }
 
 .news-header {
-  max-width: 640px;
+  max-width: 680px;
   width: 100%;
   margin: 0 0 1.8rem;
 }
@@ -569,7 +569,7 @@ html, body {
 }
 
 .pubs-header {
-  max-width: 720px;
+  max-width: 680px;
   width: 100%;
   margin: 0 0 1.6rem;
 }
@@ -589,10 +589,10 @@ html, body {
 }
 
 .pubs-header h2 {
-  font-size: 2rem;
-  margin: 0;
+  font-size: 2.1rem;
+  margin: 0 0 0.4rem;
   color: #ffffff;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.6px;
 }
 
 .pubs-grid {
